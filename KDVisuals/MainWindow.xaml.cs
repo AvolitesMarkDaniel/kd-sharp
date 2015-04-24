@@ -148,7 +148,7 @@ namespace KDVisuals
                 var vPoint = e.GetPosition(cnvPoints);
 
                 // Perform a nearest neighbour search around that point.
-                var pIter = pTree.NearestNeighbors(new double[] { vPoint.X, vPoint.Y }, iMax, fThreshold);
+                var pIter = pTree.NearestNeighbors(new double[]  { vPoint.X, vPoint.Y }, iMax, fThreshold);
                 while (pIter.MoveNext())
                 {
                     // Get the ellipse.
