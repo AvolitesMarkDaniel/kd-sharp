@@ -9,7 +9,7 @@ namespace KDTree
     /// <summary>
     /// An interface which enables flexible distance functions.
     /// </summary>
-    public interface DistanceFunctions
+    public interface IDistanceFunctions
     {
         /// <summary>
         /// Compute a distance between two n-dimensional points.
@@ -32,7 +32,7 @@ namespace KDTree
     /// <summary>
     /// A distance function for our KD-Tree which returns squared euclidean distances.
     /// </summary>
-    public class SquareEuclideanDistanceFunction : DistanceFunctions
+    public class SquareEuclideanDistanceFunction : IDistanceFunctions
     {
         /// <summary>
         /// Find the squared distance between two n-dimensional points.

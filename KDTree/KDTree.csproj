@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="DistanceFunctions.cs" />
     <Compile Include="IntervalHeap.cs" />
+    <Compile Include="IPositionalData.cs" />
     <Compile Include="KDNode.cs" />
     <Compile Include="KDTree.cs" />
     <Compile Include="MinHeap.cs" />
